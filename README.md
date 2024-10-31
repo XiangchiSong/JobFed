@@ -19,7 +19,6 @@ In today's large-scale Internet of Things (IoT) environments, Federated Learning
 However, due to the technical differences in training global models and fine-tuning personalized models, most existing hierarchical FL methods primarily focus on either constructing a better-performing global model or customizing personalized models for regions or users, with limited research addressing the balance between global and local personalized models. We have designed a cloud-fog-edge hierarchical interaction architecture based on FL, establishing both global and local models while significantly improving the system's interaction performance.By utilizing model information exchanged between layers in the architecture, we formulate the balance between global and local personalized models as a joint optimization problem to achieve relatively optimal performance for both. Experimental results demonstrate the effectiveness of our hierarchical interaction-based joint optimization approach.
 
 ### System Code & Experimental Records
-
 ***About system Code & experimental records, we will make it public after the paper is published.***
 
 #### System Requirements
@@ -27,10 +26,9 @@ However, due to the technical differences in training global models and fine-tun
 - **torch**: `2.1.1`  **cuda**: `12.1`  **cudnn**: `8.0`  **torchvision**: `0.8.0`  
 - **numpy**: `1.24.1`  **pandas**: `2.2.3`  **progressbar2**: `2.5`  **tqdm**: `4.46.2`
 
+## Supplementary Material 1: Mathematical representation of the complete model
+***Please refer to the [Appendix.pdf](https://github.com/XiangchiSong/WWW2025_JOB-Fed/blob/main/Appendix.pdf)***
 
-## Model & Parameter Settings
-
-### Model Settings
 
 #### Classification Structure
 - A fully connected (FC) layer with 200 neurons.
