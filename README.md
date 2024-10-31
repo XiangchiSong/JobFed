@@ -91,7 +91,7 @@ We would like to thank [Jed Mills](https://scholar.google.com/citations?user=30_
 
 [3] Xiangchi Song, Zhaoyan Wang, KyeongDeok Baek, and In-Young Ko. Epflu: Efficient peer-to-peer federated learning for personalized user models in edge-cloud environments. The 4th International Workshop on Big Data Driven Edge Cloud Services (BECS 2024), Co-located with the 24th International Conference on Web Engineering (ICWE 2024), June 17-20, 2024, Tampere, Finland, June 2024.
 
-[4] Mills J, Hu J, Min G. [Multi-task federated learning for personalised deep neural networks in edge computing]((https://ieeexplore.ieee.org/abstract/document/9492755))[J]. IEEE Transactions on Parallel and Distributed Systems, 2021, 33(3): 630-641.
+[4] Mills J, Hu J, Min G. [Multi-task federated learning for personalised deep neural networks in edge computing](https://ieeexplore.ieee.org/abstract/document/9492755)[J]. IEEE Transactions on Parallel and Distributed Systems, 2021, 33(3): 630-641.
 
 [5] Deng Y, Kamani M M, Mahdavi M. [Adaptive personalized federated learning](https://arxiv.org/abs/2003.13461)[J]. arXiv preprint arXiv:2003.13461, 2020.
 
