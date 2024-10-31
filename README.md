@@ -33,10 +33,11 @@ However, due to the technical differences in training global models and fine-tun
 
 <table>
   <tr>
-    <td align="center" valign="top" width="50%">
-      <img src="https://raw.githubusercontent.com/XiangchiSong/WWW2025_JOB-Fed/main/SequenceWorkflow.png" alt="Sequence Workflow" width="400">
+    <td align="center" valign="middle" width="50%">
+      <img src="https://raw.githubusercontent.com/XiangchiSong/WWW2025_JOB-Fed/main/SequenceWorkflow.png" alt="Sequence Workflow" width="600">
     </td>
-    <td valign="top" width="50%">
+    <td valign="middle" width="50%">
+      <div style="font-size:90%;">
 
 **Process Overview**
 
@@ -62,6 +63,7 @@ Afterward, the client uses the newly personalized model to start the local train
 
 This process is then repeated in a loop until the appropriate convergence or stopping condition is met.
 
+      </div>
   </tr>
 </table>
 
