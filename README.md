@@ -31,12 +31,13 @@ However, due to the technical differences in training global models and fine-tun
 
 ## Supplementary Material 2: Sequence diagram of the architecture workflow
 
-<table style="border:none; width:100%;">
+<table>
   <tr>
-    <td align="center" valign="top" width="50%" style="border:none; padding:10px;">
-      <img src="https://raw.githubusercontent.com/XiangchiSong/WWW2025_JOB-Fed/main/SequenceWorkflow.png" alt="Sequence Workflow" width="400">
+    <td align="center" valign="middle" width="60%">
+      <img src="https://raw.githubusercontent.com/XiangchiSong/WWW2025_JOB-Fed/main/SequenceWorkflow.png" alt="Sequence Workflow" width="600">
     </td>
-    <td valign="top" width="50%" style="border:none; padding:10px;">
+    <td valign="middle" width="50%">
+      <div style="font-size:70%;">
       
 **Process Overview**
 
@@ -49,12 +50,7 @@ Concurrently, the *cloud* initializes the global model (`initGlobalModel`) and d
 The processes of initial clustering for *edge* devices and the model initialization in the *cloud* server are performed in parallel.
 
 Upon receiving the initial global model from the *cloud* server, the *fog* layers distribute the global model to all of the *edge* devices they are responsible for. The objective here is to train the global model on local data available at the *edge* device. This training process occurs in a loop, iteratively refining the global model and the local models until both reach a certain level of convergence and performance.
-
-  </td>
-  </tr>
-  <tr>
-    <td colspan="2" style="border:none; padding:10px;">
-      
+    
 Once the distribution from the *fog* layer to the *edge* devices is complete, the *edge* devices begin local training (`beginLocalTraining(initModel)`), updating the model based on local private data. After a round of training is completed, the private information is separated from the trained model (`separatePrivateInfo`) to create a personalized and non-personalized model. The private information is represented by separable parameters stored in Batch Normalization (BN) layers.
 
 Both models are then concurrently sent to the *fog* layer (`sendPModel`, `sendNPModel`) for further aggregation (`beginFogAggregation`). The aggregation at the *fog* layers enhances the models' generalization across the data from various *edge* devices while maintaining privacy. Upon completing the aggregation, the *fog* layer will perform reclustering (`sendClusterConfig`) for the clients corresponding to the *edge* devices, reallocating clusters based on the personalized model update directions of different clients to group similar models together (for the rationale and technical details of reclustering, please refer to the *Supplementary Materials*).
@@ -67,7 +63,8 @@ Afterward, the client uses the newly personalized model to start the local train
 
 This process is then repeated in a loop until the appropriate convergence or stopping condition is met.
 
-</td>
+      </div>
+    </td>
   </tr>
 </table>
 
