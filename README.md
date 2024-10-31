@@ -31,12 +31,12 @@ However, due to the technical differences in training global models and fine-tun
 
 ## Supplementary Material 2: Sequence diagram of the architecture workflow
 
-<table>
+<table style="border:none; width:100%;">
   <tr>
-    <td align="center" valign="top" width="50%">
+    <td align="center" valign="top" width="50%" style="border:none; padding:10px;">
       <img src="https://raw.githubusercontent.com/XiangchiSong/WWW2025_JOB-Fed/main/SequenceWorkflow.png" alt="Sequence Workflow" width="400">
     </td>
-    <td valign="top" width="50%">
+    <td valign="top" width="50%" style="border:none; padding:10px;">
       
 **Process Overview**
 
@@ -50,10 +50,10 @@ The processes of initial clustering for *edge* devices and the model initializat
 
 Upon receiving the initial global model from the *cloud* server, the *fog* layers distribute the global model to all of the *edge* devices they are responsible for. The objective here is to train the global model on local data available at the *edge* device. This training process occurs in a loop, iteratively refining the global model and the local models until both reach a certain level of convergence and performance.
 
-</td>
+    </td>
   </tr>
   <tr>
-    <td colspan="2">
+    <td colspan="2" style="border:none; padding:10px;">
       
 Once the distribution from the *fog* layer to the *edge* devices is complete, the *edge* devices begin local training (`beginLocalTraining(initModel)`), updating the model based on local private data. After a round of training is completed, the private information is separated from the trained model (`separatePrivateInfo`) to create a personalized and non-personalized model. The private information is represented by separable parameters stored in Batch Normalization (BN) layers.
 
@@ -66,7 +66,6 @@ Subsequently, the cloud sends the globally aggregated non-personalized model bac
 Afterward, the client uses the newly personalized model to start the local training again (`beginLocalTraining(updatedPModel)`). Once the local training is completed, the new model is retained and uploaded to the *fog* layer. The private information is separated again, resulting in a new non-personalized model. This private information is stored locally on the *edge* devices and is updated and overwritten after being separated at the end of each training round.
 
 This process is then repeated in a loop until the appropriate convergence or stopping condition is met.
-
 
     </td>
   </tr>
