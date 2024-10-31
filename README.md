@@ -86,12 +86,18 @@ We would like to thank [Jed Mills](https://scholar.google.com/citations?user=30_
 
 ## References
 [1] McMahan B, Moore E, Ramage D, et al. [Communication-efficient learning of deep networks from decentralized data](https://proceedings.mlr.press/v54/mcmahan17a?ref=https://githubhelp.com)[C]//Artificial intelligence and statistics. PMLR, 2017: 1273-1282.
+
 [2] T Dinh C, Tran N, Nguyen J. [Personalized federated learning with moreau envelopes](https://proceedings.neurips.cc/paper/2020/hash/f4f1f13c8289ac1b1ee0ff176b56fc60-Abstract.html)[J]. Advances in neural information processing systems, 2020, 33: 21394-21405.
+
 [3] Xiangchi Song, Zhaoyan Wang, KyeongDeok Baek, and In-Young Ko. Epflu: Efficient peer-to-peer federated learning for personalized user models in edge-cloud environments. The 4th International Workshop on Big Data Driven Edge Cloud Services (BECS 2024), Co-located with the 24th International Conference on Web Engineering (ICWE 2024), June 17-20, 2024, Tampere, Finland, June 2024.
+
 [4] Mills J, Hu J, Min G. [Multi-task federated learning for personalised deep neural networks in edge computing]((https://ieeexplore.ieee.org/abstract/document/9492755))[J]. IEEE Transactions on Parallel and Distributed Systems, 2021, 33(3): 630-641.
+
 [5] Deng Y, Kamani M M, Mahdavi M. [Adaptive personalized federated learning](https://arxiv.org/abs/2003.13461)[J]. arXiv preprint arXiv:2003.13461, 2020.
 
 ## 
 Copyright © 2024 Xiangchi Song, Arogya Kharel, Eunkyoung Jee, and In-Young Ko
+
 This research was partly supported by the MSIT (Ministry of Science and ICT), Korea, under the ITRC (Information Technology Research Center) support program (IITP-2024-2020-0-01795) supervised by the IITP (Institute for Information & Communications Technology Planning & Evaluation) and IITP grant funded by the Korea government (MSIT) (No. RS-2024-00406245, Development of Software-Defined Infrastructure Technologies for Future Mobility).
+
 All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law. For permission requests, please email to the author.
