@@ -32,7 +32,7 @@ However, due to the technical differences in training global models and fine-tun
 ## Supplementary Material 1: Sequence diagram of the architecture workflow
 
 <div align=center>
-<img src="[https://github.com/XiangchiSong/EPFLU_P2PFL/blob/main/Figures/SystemFigure.png](https://github.com/XiangchiSong/WWW2025_JOB-Fed/blob/main/SequenceWorkflow.png)" alt="Image" width="400">
+<img src="[https://github.com/XiangchiSong/EPFLU_P2PFL/blob/main/Figures/SystemFigure.png]" alt="Image" width="400">
 </div>
 
 #### Classification Structure
