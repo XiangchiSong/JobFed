@@ -63,7 +63,7 @@ This process is then repeated in a loop until the appropriate convergence or sto
   </tr>
 </table>
 
-#### Model & Parameter Explanation
+## Model & Parameter Explanation
 JobFed uses most of the models and parameter settings of EPFLU[3], please [click here](https://github.com/XiangchiSong/EPFLU_P2PFL?tab=readme-ov-file#model--parameter-settings) for more details. In addition, we use the following parameters:
 - **α<sub>i</sub>**: Mixing parameter; dynamically controls the balance between the global model and the local personalized models.
 - **J<sub>global</sub>(g<sup>*</sup>)**: Loss function of the global model.
