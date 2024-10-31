@@ -20,12 +20,12 @@ However, due to the technical differences in training global models and fine-tun
 
 ### System Code & Experimental Records
 
-***We will make it public after the paper is published.***
+***About system Code & experimental records, we will make it public after the paper is published.***
 
 #### System Requirements
 - **python**: `3.9`
-- **torch**: `2.1.1`  **cuda**: `12.1`  **cudnn**: `8.0`  **torchvision**: `0.8.0`  **numpy**: `1.24.1`  **pandas**: `2.2.3`
-- **progressbar2**: `2.5`  **tqdm**: `4.46.2`
+- **torch**: `2.1.1`  **cuda**: `12.1`  **cudnn**: `8.0`  **torchvision**: `0.8.0`  
+- **numpy**: `1.24.1`  **pandas**: `2.2.3`  **progressbar2**: `2.5`  **tqdm**: `4.46.2`
 
 
 ## Model & Parameter Settings
