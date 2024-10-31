@@ -69,11 +69,11 @@ JobFed uses most of the models and parameter settings of EPFLU[3], please [click
 - **J<sub>global</sub>(g<sup>*</sup>)**: Loss function of the global model.
 - **J<sub>local</sub>(l<sub>x</sub><sup>*</sup>)**: Loss function of the local personalized models for client *x*.
 - **R<sub>i</sub>**: Relative optimal control condition; combines loss proportion and loss change rate.
-- **β**: Beta value used in the Relative Optimal Control Condition for calculating R<sub>i</sub>, the default setting is `0.5`.
+- **β**: Weighting parameter in the Relative Optimal Control Condition; balances the importance between loss ratio and loss change rate in R<sub>i</sub>, the default setting is `0.5`.
 - **ΔJ<sub>global</sub>**: Change rate of the global model's loss (e.g., current loss relative to the previous round).
 - **ΔJ<sub>local</sub>**: Change rate of the personalized models' loss.
-- **η**: Learning rate eta used for updating α, the default setting is `0.1`. 
-- **γ**: Threshold gamma used for updating α, the default setting is `0.5`. 
+- **η**: Learning rate; controls the adjustment step for α, the default setting is `0.1`. 
+- **γ**: Preset balance ratio; serves as the ideal value for R<sub>i</sub>, the default setting is `0.5`. 
 
 ## Dataset Distribution
 JobFed uses similar dataset distribution operations with EPFLU, please [click here](https://github.com/XiangchiSong/EPFLU_P2PFL?tab=readme-ov-file#dataset-distribution-operation-detail) for more details.
