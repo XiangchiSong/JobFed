@@ -66,25 +66,10 @@ This process is then repeated in a loop until the appropriate convergence or sto
   </tr>
 </table>
 
-#### Classification Structure
-- A fully connected (FC) layer with 200 neurons.
-- A batch normalization (BN) layer.
-- A second FC layer also with 200 neurons.
-- A softmax output layer to generate the final classification probabilities.
-#### CNN Model 
-Following the methodologies employed in the MTFL[2] work, the CNN architecture includes:
-- A 3x3 convolutional (conv) layer with 32 filters, followed by BN, ReLU activation, and a 2x2 max pooling.
-- A second 3x3 convolutional ReLU layer with 64 filters, accompanied by BN, ReLU activation, and a 2x2 max pooling.
-- A ReLU activated FC layer with 512 neurons.
-- A softmax output layer for classification.
-#### Model communication & computation Parameter Settings
-EPFLU sets the storage space occupied by the number of parameters of the deep learning model as the model communication size:
-- `comm_datasize = 6400320 bit` representing the MINST Model size (approximately 781.29 KB) in bits.
-- `comm_datasize = 67758080 bit` representing the CIFAR Model size (approximately 8273 KB or 8.1 MB) in bits.
 
-EPFLU considers the amount of data involved in processing a single iteration or single data sample as the local computation size:
-- `local_datasize = 6272 bit` for MINST data size (784 B) in bits.
-- `local_datasize = 24576 bit` for CIFAR data size (approximately 3072 B or 3 KB) in bits.
+#### Model & Parameter Explanation
+JobFed uses most of the models and parameter settings of EPFLU, please [click here](https://github.com/XiangchiSong/EPFLU_P2PFL?tab=readme-ov-file#model--parameter-settings). In addition, the following parameters are added:
+
 
 ### EPFLU-P2PFL Parameter Settings
 The configuration for EPFLU-P2PFL is specified as follows:
