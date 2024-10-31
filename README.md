@@ -69,11 +69,12 @@ This process is then repeated in a loop until the appropriate convergence or sto
 
 #### Model & Parameter Explanation
 JobFed uses most of the models and parameter settings of EPFLU, please [click here](https://github.com/XiangchiSong/EPFLU_P2PFL?tab=readme-ov-file#model--parameter-settings). In addition, the following parameters are added:
-
+- **Data Distribution Type (iid)**: Options include `1` for balanced-iid, `2` for balanced-non-iid, `3` for imbalanced-non-iid, and `4` for imbalanced-mixed-iid.
+- 
 
 ### EPFLU-P2PFL Parameter Settings
 The configuration for EPFLU-P2PFL is specified as follows:
-- **Data Distribution Type (iid)**: Options include `1` for balanced-iid, `2` for balanced-non-iid, `3` for imbalanced-non-iid, and `4` for imbalanced-mixed-iid.
+- **alpha_i**: Options include `1` for balanced-iid, `2` for balanced-non-iid, `3` for imbalanced-non-iid, and `4` for imbalanced-mixed-iid.
 - **Algorithm (alg)**: Choices are `fedavg`, `fedadam`, `ppt`, `epflu`.
 - **Total Workers (W)**: `500`, suitable for a large-scale IoT scenario.
 - **Total Rounds (T)**: `300` rounds for CIFAR10 to verify performance and convergence, `50` rounds for MNIST to validate communication.
