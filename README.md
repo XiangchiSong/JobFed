@@ -69,7 +69,7 @@ JobFed uses most of the models and parameter settings of EPFLU[3], please [click
 - **J<sub>global</sub>(g<sup>*</sup>)**: Loss function of the global model.
 - **J<sub>local</sub>(l<sub>i</sub><sup>*</sup>)**: Loss function of the local personalized models for client *i*.
 - **R<sub>i</sub>**: Relative optimal control condition; combines loss proportion and loss change rate.
-- **β**: `0.5`. Beta value used in the Relative Optimal Control Condition for calculating R<sub>i</sub>.
+- **β**: Beta value used in the Relative Optimal Control Condition for calculating R<sub>i</sub>, the default setting is `0.5`.
 - **ΔJ<sub>global</sub>**: Change rate of the global model's loss (e.g., current loss relative to the previous round).
 - **ΔJ<sub>local</sub>**: Change rate of the personalized models' loss.
 - **η**: Learning rate eta used for updating α, the default setting is `0.1`. 
