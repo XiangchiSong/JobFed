@@ -64,7 +64,7 @@ This process is then repeated in a loop until the appropriate convergence or sto
 </table>
 
 #### Model & Parameter Explanation
-JobFed uses most of the models and parameter settings of EPFLU[3], please [click here](https://github.com/XiangchiSong/EPFLU_P2PFL?tab=readme-ov-file#model--parameter-settings) for more details. In addition, the following parameters are added:
+JobFed uses most of the models and parameter settings of EPFLU[3], please [click here](https://github.com/XiangchiSong/EPFLU_P2PFL?tab=readme-ov-file#model--parameter-settings) for more details. In addition, we use the following parameters:
 - **α<sub>i</sub>**: Mixing parameter; dynamically controls the balance between the global model and the local personalized models.
 - **J<sub>global</sub>(g<sup>*</sup>)**: Loss function of the global model.
 - **J<sub>local</sub>(l<sub>i</sub><sup>*</sup>)**: Loss function of the local personalized models for client *i*.
@@ -82,12 +82,14 @@ JobFed uses similar dataset distribution operations with EPFLU, please [click he
 If you like our works, please cite our paper. Also, feel free to contact us: xcsong@kaist.ac.kr, we will reply to you within three working days！
 
 ## Special Thanks
-We would like to thank Jed Mills for providing the personalized scheme based on the [BN Patch Layer](https://ieeexplore.ieee.org/abstract/document/9492755) mechanism, and Yuyang Deng for inspiring the [Optimal Mixing Parameter](https://arxiv.org/abs/2003.13461) method.
+We would like to thank [Jed Mills](https://scholar.google.com/citations?user=30_1nBcAAAAJ&hl=zh-CN&oi=sra) for providing the personalized scheme based on the BN Patch Layer mechanism[4], and [Yuyang Deng](https://sites.psu.edu/yuyangdeng/) for inspiring the Optimal Mixing Parameter method[5].
 
 ## References
 [1] McMahan B, Moore E, Ramage D, et al. [Communication-efficient learning of deep networks from decentralized data](https://proceedings.mlr.press/v54/mcmahan17a?ref=https://githubhelp.com)[C]//Artificial intelligence and statistics. PMLR, 2017: 1273-1282.
 [2] T Dinh C, Tran N, Nguyen J. [Personalized federated learning with moreau envelopes](https://proceedings.neurips.cc/paper/2020/hash/f4f1f13c8289ac1b1ee0ff176b56fc60-Abstract.html)[J]. Advances in neural information processing systems, 2020, 33: 21394-21405.
 [3] Xiangchi Song, Zhaoyan Wang, KyeongDeok Baek, and In-Young Ko. Epflu: Efficient peer-to-peer federated learning for personalized user models in edge-cloud environments. The 4th International Workshop on Big Data Driven Edge Cloud Services (BECS 2024), Co-located with the 24th International Conference on Web Engineering (ICWE 2024), June 17-20, 2024, Tampere, Finland, June 2024.
+[4] Mills J, Hu J, Min G. [Multi-task federated learning for personalised deep neural networks in edge computing]((https://ieeexplore.ieee.org/abstract/document/9492755))[J]. IEEE Transactions on Parallel and Distributed Systems, 2021, 33(3): 630-641.
+[5] Deng Y, Kamani M M, Mahdavi M. [Adaptive personalized federated learning](https://arxiv.org/abs/2003.13461)[J]. arXiv preprint arXiv:2003.13461, 2020.
 
 ## 
 Copyright © 2024 Xiangchi Song, Arogya Kharel, Eunkyoung Jee, and In-Young Ko
