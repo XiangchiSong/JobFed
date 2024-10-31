@@ -67,7 +67,7 @@ This process is then repeated in a loop until the appropriate convergence or sto
 JobFed uses most of the models and parameter settings of EPFLU[3], please [click here](https://github.com/XiangchiSong/EPFLU_P2PFL?tab=readme-ov-file#model--parameter-settings) for more details. In addition, we use the following parameters:
 - **α<sub>i</sub>**: Mixing parameter; dynamically controls the balance between the global model and the local personalized models.
 - **J<sub>global</sub>(g<sup>*</sup>)**: Loss function of the global model.
-- **J<sub>local</sub>(l<sub>i</sub><sup>*</sup>)**: Loss function of the local personalized models for client *i*.
+- **J<sub>local</sub>(l<sub>x</sub><sup>*</sup>)**: Loss function of the local personalized models for client *x*.
 - **R<sub>i</sub>**: Relative optimal control condition; combines loss proportion and loss change rate.
 - **β**: Beta value used in the Relative Optimal Control Condition for calculating R<sub>i</sub>, the default setting is `0.5`.
 - **ΔJ<sub>global</sub>**: Change rate of the global model's loss (e.g., current loss relative to the previous round).
