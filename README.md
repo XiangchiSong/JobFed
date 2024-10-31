@@ -31,13 +31,11 @@ However, due to the technical differences in training global models and fine-tun
 
 ## Supplementary Material 2: Sequence diagram of the architecture workflow
 
-<table>
-  <tr>
-    <td align="center" valign="middle" width="60%">
-      <img src="https://raw.githubusercontent.com/XiangchiSong/WWW2025_JOB-Fed/main/SequenceWorkflow.png" alt="Sequence Workflow" width="700">
-    </td>
-    <td valign="middle" width="50%">
-      <div style="font-size:70%;">
+<div style="display: flex; flex-wrap: wrap; align-items: center;">
+  <div style="flex: 1 1 400px; max-width: 600px; text-align: center; padding: 10px;">
+    <img src="https://raw.githubusercontent.com/XiangchiSong/WWW2025_JOB-Fed/main/SequenceWorkflow.png" alt="Sequence Workflow" style="width: 100%; max-width: 600px; height: auto;">
+  </div>
+  <div style="flex: 1 1 300px; padding: 10px; font-size: 90%;">
 
 **Process Overview**
 
@@ -63,8 +61,8 @@ Afterward, the client uses the newly personalized model to start the local train
 
 This process is then repeated in a loop until the appropriate convergence or stopping condition is met.
 
-  </tr>
-</table>
+  </div>
+</div>
 
 #### Classification Structure
 - A fully connected (FC) layer with 200 neurons.
