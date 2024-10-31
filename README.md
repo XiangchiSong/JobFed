@@ -29,6 +29,8 @@ However, due to the technical differences in training global models and fine-tun
 ## Supplementary Material 1: Mathematical representation of the complete model
 ***Please refer to the [Appendix.pdf](https://github.com/XiangchiSong/WWW2025_JOB-Fed/blob/main/Appendix.pdf)***
 
+## Supplementary Material 1: Sequence diagram of the architecture workflow
+***Please refer to the [Appendix.pdf](https://github.com/XiangchiSong/WWW2025_JOB-Fed/blob/main/Appendix.pdf)***
 
 #### Classification Structure
 - A fully connected (FC) layer with 200 neurons.
