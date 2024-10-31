@@ -74,7 +74,7 @@ JobFed uses most of the models and parameter settings of EPFLU, please [click he
 
 ### EPFLU-P2PFL Parameter Settings
 The configuration for EPFLU-P2PFL is specified as follows:
-- **alpha_i**: Options include `1` for balanced-iid, `2` for balanced-non-iid, `3` for imbalanced-non-iid, and `4` for imbalanced-mixed-iid.
+- **$\alpha$_i**: Options include `1` for balanced-iid, `2` for balanced-non-iid, `3` for imbalanced-non-iid, and `4` for imbalanced-mixed-iid.
 - **Algorithm (alg)**: Choices are `fedavg`, `fedadam`, `ppt`, `epflu`.
 - **Total Workers (W)**: `500`, suitable for a large-scale IoT scenario.
 - **Total Rounds (T)**: `300` rounds for CIFAR10 to verify performance and convergence, `50` rounds for MNIST to validate communication.
