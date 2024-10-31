@@ -16,7 +16,7 @@ Supplementary Materials for WWW 2025 [JobFed: Joint Optimization for Balancing G
 In today's large-scale Internet of Things (IoT) environments, Federated Learning (FL) has demonstrated exceptional performance in simultaneously addressing the demands for data utilization and user privacy protection. To reduce the substantial communication overhead of current FL systems, hierarchical FL architecture has emerged as a promising solution. 
 However, due to the technical differences in training global models and fine-tuning personalized models, most existing hierarchical FL methods primarily focus on either constructing a better-performing global model or customizing personalized models for regions or users, with limited research addressing the balance between global and local personalized models. We have designed a cloud-fog-edge hierarchical interaction architecture based on FL, establishing both global and local models while significantly improving the system's interaction performance.By utilizing model information exchanged between layers in the architecture, we formulate the balance between global and local personalized models as a joint optimization problem to achieve relatively optimal performance for both. We choose FedAvg[1], pFedMe[2] as baselines. Experimental results demonstrate the effectiveness of our hierarchical interaction-based joint optimization approach.
 
-### System Code & Experimental Records
+## System Code & Experimental Records
 ***About system Code & experimental records, we will make it public after the paper is published.***
 
 #### System Requirements
