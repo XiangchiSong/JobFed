@@ -1,35 +1,32 @@
 # [WWW 2025] JobFed: Joint Optimization for Balancing Global and Local Personalized Models in Hierarchical Federated Learning
 
-Supplementary Materials for WWW 2025
-
-Detailed model and parameter setting, data distribution operation, and complete experimental records for [EPFLU: Efficient Peer-to-peer Federated Learning for Personalized User Models in Edge-Cloud Environments] by *Xiangchi Song, Zhaoyan Wang, KyeongDeok Baek*, and *In-Young Ko*. School of Computing,  Korea Advanced Institute of Science and Technology,  Daejeon, Republic of Korea.
-
-### System Code & Experimental Records
-***We will make it public after the paper is published.***
-
+Supplementary Materials for WWW 2025 [JobFed: Joint Optimization for Balancing Global and Local Personalized Models in Hierarchical Federated Learning] by *Xiangchi Song, Arogya Kharel, Eunkyoung Jee*, and *In-Young Ko*. School of Computing,  Korea Advanced Institute of Science and Technology,  Daejeon, Republic of Korea.
 
 ## Table of Contents
 * Overview
-* Model & Parameter Setting
+* System Code & Experimental Records
+* Supplementary Material 1: Mathematical representation of the complete model
+* Supplementary Material 2: Sequence diagram of the architecture workflow
+* Model & Parameter Explanation
 * Dataset Distribution Operation Detail
-* Experimental Records
 * Contact
 * Special Thanks
 * References
 
-
 ## Overview
 
-We extend FL into a horizontal peer-to-peer (P2P) structure and introduce our P2PFL framework: Efficient Peer-to-peer Federated Learning for Users (EPFLU). EPFLU transitions the paradigms from vertical FL to horizontal P2P structure from the user perspective and incorporates personalized enhancement techniques using private information. Through horizontal consensus information aggregation and private information supplementation, EPFLU solves the weakness of traditional FL that dilutes the characteristics of individual client data and leads to model deviation. This structural transformation also significantly alleviates the original communication issues. Additionally, EPFLU has a customized simulation evaluation framework to make it more suitable for real-world large-scale IoT. Within this framework, we design extreme data distribution scenarios and conduct detailed experiments of EPFLU and selected baselines on the MNIST and CIFAR-10 datasets. The results demonstrate that the robust and adaptive EPFLU framework can consistently converge to optimal performance even under extreme data distribution scenarios. We choose FedAvg[1], FedAdam[2,3] and PPT[4] as baselines. Compared with the selected vertical aggregation and horizontal transmission cumulative aggregation methods, EPFLU achieves communication improvements of 21% and 57% respectively.
+In today's large-scale Internet of Things (IoT) environments, Federated Learning (FL) has demonstrated exceptional performance in simultaneously addressing the demands for data utilization and user privacy protection. To reduce the substantial communication overhead of current FL systems, hierarchical FL architecture has emerged as a promising solution. 
+However, due to the technical differences in training global models and fine-tuning personalized models, most existing hierarchical FL methods primarily focus on either constructing a better-performing global model or customizing personalized models for regions or users, with limited research addressing the balance between global and local personalized models. We have designed a cloud-fog-edge hierarchical interaction architecture based on FL, establishing both global and local models while significantly improving the system's interaction performance.By utilizing model information exchanged between layers in the architecture, we formulate the balance between global and local personalized models as a joint optimization problem to achieve relatively optimal performance for both. Experimental results demonstrate the effectiveness of our hierarchical interaction-based joint optimization approach.
 
-<div align=center>
-<img src="https://github.com/XiangchiSong/EPFLU_P2PFL/blob/main/Figures/SystemFigure.png" alt="Image" width="400">
-</div>
+### System Code & Experimental Records
 
-### System Requirements
-- **python**: `3.8`
-- **torch**: `1.7.0`  **cuda**: `11.0`  **cudnn**: `8.0`  **torchvision**: `0.8.0`  **numpy**: `1.19.2`
-- **progressbar2**: `3.47.0`  **tqdm**: `4.46.0`
+***We will make it public after the paper is published.***
+
+#### System Requirements
+- **python**: `3.9`
+- **torch**: `2.1.1`  **cuda**: `12.1`  **cudnn**: `8.0`  **torchvision**: `0.8.0`  **numpy**: `1.24.1`  **pandas**: `2.2.3`
+- **progressbar2**: `2.5`  **tqdm**: `4.46.2`
+
 
 ## Model & Parameter Settings
 
