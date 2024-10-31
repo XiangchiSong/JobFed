@@ -74,12 +74,16 @@ JobFed uses most of the models and parameter settings of EPFLU, please [click he
 
 ### EPFLU-P2PFL Parameter Settings
 The configuration for EPFLU-P2PFL is specified as follows:
-- **\alpha_i**: Options include `1` for balanced-iid, `2` for balanced-non-iid, `3` for imbalanced-non-iid, and `4` for imbalanced-mixed-iid.
-- **Algorithm (alg)**: Choices are `fedavg`, `fedadam`, `ppt`, `epflu`.
-- **Total Workers (W)**: `500`, suitable for a large-scale IoT scenario.
-- **Total Rounds (T)**: `300` rounds for CIFAR10 to verify performance and convergence, `50` rounds for MNIST to validate communication.
-- **Sampling Rate (C)**: `0.3`, the best sampling rate after balancing training and communication costs under the large-scale IoT environment setting.
-- **Client Learning Rate (lr)**: Different settings for different algorithms and datasets, e.g., `0.02` for CIFAR10 and `0.2` for MNIST with FedAvg; `0.05` for CIFAR10 and `0.2` for MNIST with FedAdam; `0.03` for CIFAR10 and `0.2` for MNIST with PPT; `0.001` for CIFAR10 and `0.001` for MNIST with EPFLU;
+- **α<sub>i</sub>**: Mixing parameter; dynamically controls the balance between the global model and the local personalized models.
+- **\(J_{\text{global}}(g^*)\)**: Loss function of the global model.
+- **\(J_{\text{local}}(l_i^*)\)**: Loss function of the local personalized models for client \(i\).
+- **\(R_i\)**: Relative optimal control condition; combines loss proportion and loss change rate.
+- **`-optBeta`**: `0.5`. Beta value used in the Relative Optimal Control Condition for calculating \(R_i\).
+- **Δ\(J_{\text{global}}\)**: Change rate of the global model's loss (e.g., current loss relative to the previous round).
+- **Δ\(J_{\text{local}}\)**: Change rate of the personalized models' loss.
+- **`-eta`**: `0.1`. Learning rate eta used for updating α.
+- **`-gamma`**: `0.5`. Threshold gamma used for updating α.
+
   
 ### Communication Simulator Parameter Settings
 The simulation setup for communication parameters is as follows:
