@@ -50,7 +50,6 @@ The processes of initial clustering for *edge* devices and the model initializat
 
 Upon receiving the initial global model from the *cloud* server, the *fog* layers distribute the global model to all of the *edge* devices they are responsible for. The objective here is to train the global model on local data available at the *edge* device. This training process occurs in a loop, iteratively refining the global model and the local models until both reach a certain level of convergence and performance.
 
-    </td>
   </tr>
   <tr>
     <td colspan="2" style="border:none; padding:10px;">
