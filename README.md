@@ -31,11 +31,7 @@ However, due to the technical differences in training global models and fine-tun
 
 ## Supplementary Material 2: Sequence diagram of the architecture workflow
 
-<div style="display: flex; flex-wrap: wrap; align-items: center;">
-  <div style="flex: 1 1 400px; max-width: 600px; text-align: center; padding: 10px;">
-    <img src="https://raw.githubusercontent.com/XiangchiSong/WWW2025_JOB-Fed/main/SequenceWorkflow.png" alt="Sequence Workflow" style="width: 100%; max-width: 600px; height: auto;">
-  </div>
-  <div style="flex: 1 1 300px; padding: 10px; font-size: 90%;">
+<img src="https://raw.githubusercontent.com/XiangchiSong/WWW2025_JOB-Fed/main/SequenceWorkflow.png" alt="Sequence Workflow" width="600" style="float: left; margin-right: 20px; margin-bottom: 10px;">
 
 **Process Overview**
 
@@ -60,9 +56,6 @@ Subsequently, the cloud sends the globally aggregated non-personalized model bac
 Afterward, the client uses the newly personalized model to start the local training again (`beginLocalTraining(updatedPModel)`). Once the local training is completed, the new model is retained and uploaded to the *fog* layer. The private information is separated again, resulting in a new non-personalized model. This private information is stored locally on the *edge* devices and is updated and overwritten after being separated at the end of each training round.
 
 This process is then repeated in a loop until the appropriate convergence or stopping condition is met.
-
-  </div>
-</div>
 
 #### Classification Structure
 - A fully connected (FC) layer with 200 neurons.
