@@ -34,10 +34,10 @@ However, due to the technical differences in training global models and fine-tun
 <table>
   <tr>
     <td align="center" valign="middle" width="50%">
-      <img src="https://raw.githubusercontent.com/XiangchiSong/WWW2025_JOB-Fed/main/SequenceWorkflow.png" alt="Sequence Workflow" width="600">
+      <img src="https://raw.githubusercontent.com/XiangchiSong/WWW2025_JOB-Fed/main/SequenceWorkflow.png" alt="Sequence Workflow" width="650">
     </td>
     <td valign="middle" width="50%">
-      <div style="font-size:90%;">
+      <div style="font-size:70%;">
 
 **Process Overview**
 
