@@ -67,7 +67,6 @@ Afterward, the client uses the newly personalized model to start the local train
 
 This process is then repeated in a loop until the appropriate convergence or stopping condition is met.
 
-    </td>
   </tr>
 </table>
 
