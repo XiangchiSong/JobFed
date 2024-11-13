@@ -22,7 +22,7 @@ However, due to the technical differences in training global models and fine-tun
 #### System Requirements
 - **python**: `3.9`
 - **torch**: `2.1.1`  **cuda**: `12.1`  **cudnn**: `8.0`  **torchvision**: `0.8.0`  
-- **numpy**: `1.24.1`  **pandas**: `2.2.3`  **progressbar2**: `2.5`  **tqdm**: `4.46.2`
+- **numpy**: `1.24.1`  **scipy**: `1.12.0`  **pandas**: `2.2.3`  **progressbar2**: `2.5`  **tqdm**: `4.46.2`
 
 ## Supplementary Material 1: Mathematical representation of the complete model
 ***Please refer to the [Appendix.pdf](https://github.com/XiangchiSong/WWW2025_JOB-Fed/blob/main/Appendix.pdf)***
