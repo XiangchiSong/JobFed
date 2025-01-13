@@ -1,5 +1,5 @@
 # [IJCAI 2025] JobFed: Joint Optimization for Balancing Generalization and Personalization of Hierarchical Federated Learning in Large-scale IoT Environments
-<!--Appendix and Data Records in Supplementary Materials for IJCAI 2025 [JobFed: Joint Optimization for Balancing Generalization and Personalization of Hierarchical Federated Learning in Large-scale IoT Environments] by *Xiangchi Song, Arogya Kharel, Eunkyoung Jee*, and *In-Young Ko*. School of Computing,  Korea Advanced Institute of Science and Technology,  Daejeon, Republic of Korea.-->
+<!--Appendix and Data Records in Supplementary Materials for IJCAI 2025 [JobFed: Joint Optimization for Balancing Generalization and Personalization of Hierarchical Federated Learning in Large-scale IoT Environments] by *Xiangchi Song, Arogya Kharel, Eunkyoung Jee*, and *In-Young Ko*. School of Computing,  Korea Advanced Institute of Science and Technology,  Daejeon, Republic of Korea.
 
 ## Table of Contents
 * Overview
@@ -100,4 +100,4 @@ Copyright © 2024 Xiangchi Song, Arogya Kharel, Eunkyoung Jee, and In-Young Ko
 
 This research was partly supported by the MSIT (Ministry of Science and ICT), Korea, under the ITRC (Information Technology Research Center) support program (IITP-2024-2020-0-01795) supervised by the IITP (Institute for Information & Communications Technology Planning & Evaluation) and IITP grant funded by the Korea government (MSIT) (No. RS-2024-00406245, Development of Software-Defined Infrastructure Technologies for Future Mobility).
 
-All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law. For permission requests, please email to the author.
+All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law. For permission requests, please email to the author.-->
