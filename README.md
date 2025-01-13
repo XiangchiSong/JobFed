@@ -1,5 +1,5 @@
-# [WWW 2025] JobFed: Joint Optimization for Balancing Global and Local Personalized Models in Hierarchical Federated Learning
-Supplementary Materials for WWW 2025 [JobFed: Joint Optimization for Balancing Global and Local Personalized Models in Hierarchical Federated Learning] by *Xiangchi Song, Arogya Kharel, Eunkyoung Jee*, and *In-Young Ko*. School of Computing,  Korea Advanced Institute of Science and Technology,  Daejeon, Republic of Korea.
+# [IJCAI 2025] JobFed: Joint Optimization for Balancing Generalization and Personalization of Hierarchical Federated Learning in Large-scale IoT Environments
+<!--Appendix and Data Records in Supplementary Materials for IJCAI 2025 [JobFed: Joint Optimization for Balancing Generalization and Personalization of Hierarchical Federated Learning in Large-scale IoT Environments] by *Xiangchi Song, Arogya Kharel, Eunkyoung Jee*, and *In-Young Ko*. School of Computing,  Korea Advanced Institute of Science and Technology,  Daejeon, Republic of Korea.-->
 
 ## Table of Contents
 * Overview
