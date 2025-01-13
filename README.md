@@ -1,4 +1,10 @@
 # [IJCAI 2025] JobFed: Joint Optimization for Balancing Generalization and Personalization of Hierarchical Federated Learning in Large-scale IoT Environments
+
+## Table of Contents
+* Supplementary Material 1 - Appendix: Technical details and results analysis of the paper.
+* Supplementary Material 2 - Data Records: Data records in .pkl format for all experiments in this paper.
+
+
 <!--Appendix and Data Records in Supplementary Materials for IJCAI 2025 [JobFed: Joint Optimization for Balancing Generalization and Personalization of Hierarchical Federated Learning in Large-scale IoT Environments] by *Xiangchi Song, Arogya Kharel, Eunkyoung Jee*, and *In-Young Ko*. School of Computing,  Korea Advanced Institute of Science and Technology,  Daejeon, Republic of Korea.
 
 ## Table of Contents
